@@ -708,8 +708,8 @@ function displayQuantumResult(container, data) {
   container.innerHTML = `
     <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(0, 212, 170, 0.1)); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(102, 126, 234, 0.2);">
       <div style="font-size: 1.3rem; margin-bottom: 1rem; color: #00d4aa;">
-        ⚛️ نتائج التحسين الكمي
-        <span style="float: left; color: #ffd700;">✓ تقليل ${opt.energy_reduction}%</span>
+        ⚛️ Quantum Optimization Results
+        <span style="float: left; color: #ffd700;">✓ Energy Reduction ${opt.energy_reduction}%</span>
       </div>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
         <div style="background: rgba(0,0,0,0.2); padding: 1rem; border-radius: 8px;">
